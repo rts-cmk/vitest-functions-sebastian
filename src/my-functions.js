@@ -12,7 +12,7 @@ export function calculateSum(a, b) {
 /**
  * Kontrollerer om et tal er et primtal.
  * @param {number} number - Tallet der skal kontrolleres.
- * @returns {boolean} True hvis tallet er et primtal, ellers false.
+ * @returns {boolean} True hvis tallet er et primtal, ellers false..
  */
 export function checkIfPrime(number) {
     // Skriv din kode her:
