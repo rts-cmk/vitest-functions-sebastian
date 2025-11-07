@@ -6,21 +6,21 @@
  */
 export function calculateSum(a, b) {
     // Skriv din kode her:
-
-
-
+    return a + b;
 }
 
 /**
  * Kontrollerer om et tal er et primtal.
  * @param {number} number - Tallet der skal kontrolleres.
- * @returns {boolean} True hvis tallet er et primtal, ellers false.
+ * @returns {boolean} True hvis tallet er et primtal, ellers false..
  */
 export function checkIfPrime(number) {
     // Skriv din kode her:
-
-
-
+    if (number <= 1) return false;
+    for (let i = 2; i <= Math.sqrt(number); i++) {
+        if (number % i === 0) return false;
+    }
+    return true;
 }
 
 /**
@@ -30,9 +30,7 @@ export function checkIfPrime(number) {
  */
 export function findMaximumNumber(array) {
     // Skriv din kode her:
-
-
-
+    return Math.max(...array);
 }
 
 /**
@@ -42,7 +40,5 @@ export function findMaximumNumber(array) {
  */
 export function removeDuplicateElements(array) {
     // Skriv din kode her:
-
-
-
+    return [...new Set(array)];
 }
