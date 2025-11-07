@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { findLongestWord, charCount, mergeSortedArrays, groupBy, debounce } from "./premade-functions.js";
+import { findLongestWord, charCount, mergeSortedArrays, flattenArray groupBy, debounce } from "./premade-functions.js";
 
 describe("findLongestWord", () => {
 
